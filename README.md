@@ -40,7 +40,7 @@ MTN agents struggle with high volumes of customer complaints, leading to slow re
 | [Ajibiye Oladapo Jacob  | Project Lead / AI Engineer  |
 | Taiwo Akinmosin         | UI/UX & Presentation        |
 | IKO PATRICK OJIYA       | Data Analyst / Backend      |
-| Yemi                    | Documentation & Research    |
+| Mustapha Lukman Opeyemi | Documentation & Research    |
 ---
 
-## Project Structure
+
