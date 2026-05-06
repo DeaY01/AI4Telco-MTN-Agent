@@ -1,60 +1,66 @@
 # AI4Telco-MTN-Agent
-**AI-Powered Intelligent Complaint Resolution & Agent Assistant**  
-**DSN AI Telco Hackathon 2026** | Microsoft AI Skills Week
 
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)
-![Azure_OpenAI](https://img.shields.io/badge/AI-Azure_OpenAI-0078D4.svg)
-![Python](https://img.shields.io/badge/Language-Python-3776AB.svg)
+**Intelligent Agent Copilot for MTN Customer Service**  
+**DSN AI Telco Hackathon 2026**
 
----
-
-## Problem Statement
-
-MTN customer service agents handle thousands of complaints daily across multiple channels. Due to **high volume**, **siloed data**, and lack of intelligent support, agents face:
-
-- Slow resolution times
-- Inconsistent decision making
-- Missed churn prevention opportunities
-- Revenue leakage from poor compensation handling
-- Low agent productivity
-
-**Targeted Problem Statements**: Customer Analytics (P2), Risk Management (P1), Productivity (P4)
+![MTN](https://img.shields.io/badge/Partner-MTN_Nigeria-blue) 
+![Azure_OpenAI](https://img.shields.io/badge/AI-Azure_OpenAI-0078D4)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B)
 
 ---
 
-## Solution
+### Problem Statement
 
-**AI4Telco-MTN-Agent** is a real-time **AI co-pilot** that helps MTN agents:
+MTN agents handle thousands of customer complaints daily across voice calls, chat, USSD, and other channels. Due to high volume and lack of intelligent support, agents face slow resolution times, inconsistent decisions, missed churn prevention opportunities, and revenue leakage.
+
+**Targeted Problem Statements**:  
+- **Primary**: Customer Analytics (P2)  
+- **Secondary**: Risk Management (P1) & Productivity (P4)
+
+---
+
+### Personas
+
+- **Primary Persona**: Customer Retention Manager  
+- **Secondary Persona**: Frontline Customer Service Agent
+
+---
+
+### Solution
+
+**AI4Telco-MTN-Agent** is a real-time **AI Copilot** that helps MTN agents:
 
 - Instantly analyze customer complaints
 - Recommend the **Next Best Action**
-- Generate professional customer responses
-- Flag high-risk cases (churn, fraud, mass outage)
-- Provide clear reasoning for decisions
+- Generate professional responses to customers
+- Flag high-risk cases (Churn & Mass Outage)
+- Provide Retention Managers with insights and performance visibility
 
 ---
 
-## Key Features
+### Key Features
 
-- Single complaint analysis
-- Bulk complaint processing (CSV upload)
-- Next Best Action Engine
-- Risk Scoring & Escalation Logic
-- Interactive Insights Dashboard
-- MTN & Nigeria contextual intelligence
+- **Agent Copilot**: Single complaint analysis with Next Best Action
+- **Insights Dashboard**: Bulk analysis and trends for supervisors
+- Risk flagging and reasoning
+- MTN Nigeria contextual intelligence
 
 ---
 
-## Tech Stack
+### Tech Stack
 
+- **AI Engine**: Azure OpenAI (`telecom-model` / gpt-4o-mini)
 - **Frontend**: Streamlit
-- **AI Engine**: Azure OpenAI (`telecom-model`)
-- **Data Processing**: Python + Pandas
-- **Deployment**: Streamlit Community Cloud 
+- **Core Logic**: Python (`ai_core.py`)
+- **Data Processing**: Pandas
+- **Deployment**: Streamlit / Render
 
 ---
 
-## Team Zenovate
+
+---
+
+## Team Success
 
 | Name                        | Role                          |
 |----------------------------|-------------------------------|
@@ -65,14 +71,23 @@ MTN customer service agents handle thousands of complaints daily across multiple
 
 ---
 
-## How to Run Locally
+
+---
+
+### How to Run Locally
 
 ```bash
 git clone https://github.com/DeaY01/AI4Telco-MTN-Agent.git
 cd AI4Telco-MTN-Agent
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate
+
 pip install -r requirements.txt
 streamlit run app.py
 
 
-
+Made with ❤️ for MTN Nigeria
+AI4Telco Hackathon 2026
 
