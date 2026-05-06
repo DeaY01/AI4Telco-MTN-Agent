@@ -87,6 +87,6 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-Made with ❤️  for MTN Nigeria
+Made with ❤️ for MTN Nigeria
 AI4Telco Hackathon 2026
 
