@@ -52,7 +52,7 @@ MTN agents handle thousands of customer complaints daily across voice calls, cha
 - **Frontend**: Streamlit
 - **Core Logic**: Python (`ai_core.py`)
 - **Data Processing**: Pandas
-- **Deployment**: Streamlit / Render
+- **Deployment**: Streamlit 
 
 ---
 
