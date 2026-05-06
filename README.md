@@ -15,7 +15,6 @@ MTN agents handle thousands of customer complaints daily across voice calls, cha
 
 **Targeted Problem Statements**:  
 - **Primary**: Customer Analytics (P2)  
-- **Secondary**: Risk Management (P1) & Productivity (P4)
 
 ---
 
