@@ -48,7 +48,7 @@ MTN agents handle thousands of customer complaints daily across voice calls, cha
 
 ### Tech Stack
 
-- **AI Engine**: Azure OpenAI (`telecom-model` / gpt-4o-mini)
+- **AI Engine**: Azure OpenAI (`gpt-4o-mini)
 - **Frontend**: Streamlit
 - **Core Logic**: Python (`ai_core.py`)
 - **Data Processing**: Pandas
